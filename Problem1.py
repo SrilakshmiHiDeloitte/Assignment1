@@ -53,7 +53,8 @@ class SearchCommonElements(StringClass):
 
 class EqualSumPairs(SearchCommonElements):
     def __init__(self):
-        print(SearchCommonElements.comelements())
+        print(SearchCommonElements.comelements('Srilakshmi','lak'))
 
 
-usr = EqualSumPairs('Srilakshmi', 'lak')
+
+
