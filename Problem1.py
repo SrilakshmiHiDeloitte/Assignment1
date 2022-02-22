@@ -52,9 +52,18 @@ class SearchCommonElements(StringClass):
 
 
 class EqualSumPairs(SearchCommonElements):
-    def __init__(self):
-        print(SearchCommonElements.comelements('Srilakshmi','lak'))
+    def __init__(self, userinput, userinput2):
+        PairsPossible.__init__(self, userinput)
+        SearchCommonElements.__init__(self, userinput, userinput2)
+
+    def otput(self):
+        print((PairsPossible.getpairs(self)))
+        print(SearchCommonElements.comelements(self))
 
 
+
+
+usr = EqualSumPairs('Srilakshmi','lak')
+usr.otput()
 
 
