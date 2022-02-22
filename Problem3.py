@@ -29,3 +29,19 @@ def merge(a, b):
 
 
 merge(["Hello ", "take "], ["Dear", "Sir"])
+
+def appendlist(a,b):
+    for i in a:
+        for j in i:
+            for k in j:
+                for m in b:
+                    k.append(m)
+    print(k)
+
+
+
+appendlist(["a", "b", ["c", ["d", "e", ["f", "g"], "k"], "l"], "m", "n"], ['h', 'i', 'j'])
+
+
+
+
