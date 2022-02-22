@@ -1,5 +1,3 @@
-import array as arr
-
 
 def duplicate(n):
     c = 0
@@ -59,7 +57,7 @@ def replacing(a, b):
 replacing({"name": "Kelly", "age": 25, "salary": 8000, "city": "New york"}, 'Rajahmundry')
 
 
-def dictolist(a):
+def dicttolist(a):
     op = []
     for i in a.keys():
         m = a.get(i)
@@ -68,4 +66,4 @@ def dictolist(a):
     print(op)
 
 
-dictolist({'HuEx': [1, 3, 4], 'is': [7, 6], 'best': [4, 5]})
+dicttolist({'HuEx': [1, 3, 4], 'is': [7, 6], 'best': [4, 5]})
