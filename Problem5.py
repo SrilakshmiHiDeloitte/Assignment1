@@ -15,14 +15,6 @@ print(x)
 from functools import reduce
 
 
-def red(a, b):
-    print(f"a={a}, b={a}, {a} + {b} ={a + b}")
-    return a + b
-
-
-scores = [75, 65, 80, 95, 50]
-total = reduce(red, scores)
-print(total)
 
 
 # Problem 5
