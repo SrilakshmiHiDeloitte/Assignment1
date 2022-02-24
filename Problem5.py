@@ -12,8 +12,6 @@ x = list(map(positive, filter(positive, a)))
 print(x)
 
 # Problem 4
-from functools import reduce
-
 
 
 
